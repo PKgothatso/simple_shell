@@ -12,7 +12,7 @@ void clean_up(vars_t *vars);
  *
  * Return: 0 or exit status, or ?
  */
-int main(int argc, char **argv, char **environment)
+int main(int argc __attribute__((unused)), char **argv, char **environment)
 {
 	size_t len_buffer = 0;
 	unsigned int is_pipe = 0;

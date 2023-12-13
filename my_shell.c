@@ -1,6 +1,6 @@
 #include "shell.h"
 
-void (check_for_builtins(vars_t *))(vars_t *);
+void (check_for_builtins(vars_t *vars))(vars_t *);
 void process_input(vars_t *vars);
 void clean_up(vars_t *vars);
 

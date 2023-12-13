@@ -1,5 +1,8 @@
 #include "shell.h"
 
+/* Function prototype for _uitoa */
+char *_uitoa(unsigned int count);
+
 /**
  * print_error - Prints error messages to standard error.
  * @vars: Pointer to struct of variables.

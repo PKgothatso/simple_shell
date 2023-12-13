@@ -9,7 +9,7 @@
  */
 char **_realloc(char **ptr, size_t *size)
 {
-	char **new
+	char **new;
 	size_t i;
 
 	new = malloc(sizeof(char *) * ((*size) + 10));

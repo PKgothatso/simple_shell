@@ -57,7 +57,7 @@ char *_strcat(char *strc1, char *strc2);
 unsigned int _strlen(char *str);
 
 /* Tokenization functions */
-char **tokenize(char *buffer' char *delimiter);
+char **tokenize(char *buffer, char *delimiter);
 char **_realloc(char **ptr, size_t *size);
 char *new_strtok(char *str, const char *delim);
 
@@ -80,6 +80,7 @@ int path_execute(char *command, vars_t *vars);
 char *find_path(char **env);
 int evecute_cwd(vars_t *vars);
 int check_for_dir(char *str);
+int execute_cwd(vars_t *vars);
 
 /*Error handling functions*/
 void print_error(vars_t *vars, char *msg);
